@@ -1,0 +1,179 @@
+.contenedor1{
+    height: 1000px;
+    padding: 0px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+     flex-direction: column;
+}
+
+
+
+
+.logo2{
+    width: 17%;
+    height: 150px;
+    margin-bottom: 50px;
+    margin-left: 430px;
+    display: flex;
+    border-radius: 50px;
+    
+}
+
+
+.portafolio{
+
+    background: #e7e4e2;  
+    
+    
+
+    }
+    
+    .galeria-port{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .imagen-port{
+        width: 24%;
+        height: 300px;
+        margin-bottom: 10px;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        box-shadow: 0 0 6px rgba(0, 0, 0 , .5);
+        border-radius: 5px;
+    
+    }
+    
+    .imagen-port > img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        
+    }
+    
+    .hover-galeria{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        transform: scale(0);
+        /* background: url(../img/dorao600.jpg); */
+        transition: transform .5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    
+    .hover-galeria img{
+        width: 50px;
+    
+    }
+    
+    .hover-galeria p{
+        color: #fff;
+    }
+
+    .imagen-port:hover .hover-galeria{
+        transform: scale(1);
+    }    
+
+
+    .wave6{
+        height: 150px;
+       
+       
+       
+        
+    }
+    
+    .wave7{
+         height: 100%;
+         width: 100%;
+         
+    }
+    
+    .wave8{
+        stroke: none;
+         fill: #274cc7fd;
+    }
+    
+
+    @media(max-width: 400px){
+
+        .logo2{
+            width: 17%;
+            height: 50px;
+            margin-bottom: 50px;
+            display: flex;
+            border-radius: 50px;
+            
+            
+        }
+
+        .contenedor1{
+            height: 3500px;
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+            
+            
+       
+        }
+
+        .galeria-port{
+         
+            
+        }
+           
+
+    
+    .imagen-port{
+        width: 84%;
+        height: 400px;
+        margin: auto;
+        margin-bottom: 10px;
+        cursor: pointer;
+        box-shadow: 0 0 6px rgba(0, 0, 0 , .5);
+        border-radius: 5px;
+    
+    }
+    
+    .imagen-port > img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+     
+        
+    }
+
+    .wave6{
+        height: 100px;
+       
+       
+       
+        
+    }
+    
+    .wave7{
+         height: 100%;
+         width: 100%;
+         
+    }
+    
+    .wave8{
+        stroke: none;
+         fill: #274cc7fd;
+    }
+      
+        
+    
+    }

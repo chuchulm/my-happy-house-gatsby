@@ -1,0 +1,161 @@
+
+.contenedor{
+    background: #9cc727ec;
+    padding: 60px 0;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    height: 755px;
+
+}
+
+    .video-about-us{
+        width: 85%;
+        margin-right: 500px;
+        margin-left: 200px;
+        border-radius: 5px;
+        margin-top: 50px;
+        
+    }
+    
+   
+    
+    .contenido-texto h3{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: rgb(0, 255, 255);
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Itim', cursive;
+    font-size: 40px;
+    margin-left: 240px;
+    
+   
+    }
+    
+    
+    .contenido-textos p{
+        color: rgb(255, 255, 255);
+    padding: 0px 0px 30px 0px;
+    font-weight: 400;
+    text-align: justify;
+    margin-right: 300px;
+    margin-left: 120px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Itim', cursive;  
+    
+    
+    }
+
+    .happy{
+        color: rgb(255, 196, 1);
+    }
+
+    .elefante{
+        position: absolute;
+        top: 1250px;
+        right: -50px;
+        width: 550px;
+        height: 300px;
+    }
+
+    .wave{
+    height: 110px;
+    width: 100%;
+    position: absolute;
+    top: 1550px;
+    }
+
+    .wave1{
+     height: 150%;
+     width: 100%;
+     
+    }
+
+    .wave2{
+    stroke: none;
+     fill: #274cc7;
+    }
+
+    
+    
+    @media(max-width: 400px){
+        .contenedor{
+            background: #9cc727ec;
+            height: 750px;
+          
+        
+        }
+
+        .video-about-us{
+            width: 85%;
+          margin: 23px;
+            border-radius: 5px;
+            position: absolute;
+            top: 310px;
+            
+           
+            
+        }
+
+        .contenido-texto h3{
+            margin-top: 150px;
+            margin-left: 70px;
+            color: rgb(0, 255, 255);
+            font-family: 'Amatic SC', cursive;
+            font-family: 'Itim', cursive;
+            font-size: 30px;
+      
+       
+        }
+        
+        
+        .contenido-textos p{
+            color: rgb(255, 255, 255);
+            font-weight: 400;
+            text-align: center;
+            font-family: 'Amatic SC', cursive;
+            font-family: 'Itim', cursive;  
+            margin: auto;
+            text-align: center;
+            padding: 0px 2px 10px 0px;
+            
+        
+        
+        }
+
+        .elefante{
+            width: 300px;
+            height: 150px;
+            position: absolute;
+            top: 790px;
+            right: -80px;
+        }
+
+
+        .wave{
+            height: 100px;
+            width: 100%;
+            position: absolute;
+            top: 990px;
+            }
+        
+            .wave1{
+             height: 100%;
+             width: 100%;
+             
+            }
+        
+            .wave2{
+            stroke: none;
+             fill: #264cc7;
+            }
+        
+        
+            
+      }
+    
+    
+      @media(max-width: 800px){
+        
+      }

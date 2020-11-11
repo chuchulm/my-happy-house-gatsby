@@ -1,0 +1,129 @@
+.total{
+    background: #274cc7fd;
+    width: 100%;
+    height: 1300px;
+   
+    
+}
+
+.tituloCarousel{
+    
+    color: rgb(0, 255, 255);
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Itim', cursive;
+    font-size: 40px;
+    padding-top: 120px;
+    margin-bottom: 50px;
+    
+    
+}
+
+
+
+.VEN{
+    color: rgb(240, 187, 12);
+}
+
+.carouselHouse{
+   
+    border-radius: 5px;
+    background: #274cc7ec;
+    margin: auto;
+    
+    
+}
+
+.indicador{
+    width: 100%;
+}
+
+.carouselHouse1{
+    
+    margin-left: 90px;
+    background: #274cc7ec;
+    width: 90%;
+    height: 790px;
+    border: solid rgb(206, 37, 212) 20px;
+    border-radius: 30px;
+    margin-top: 70px;
+    box-shadow: 0 0 6px rgba(0, 0, 0 , .8);
+    object-fit: cover;
+    
+    
+}
+
+.oveja{
+    position: absolute;
+    top: 1465px;
+    left: -200px;
+    width: 1000px;
+    height: 700px;
+    
+}
+
+
+
+/* responsive */
+
+@media(max-width: 400px){
+
+    .total{
+        background: #274cc7;
+        width: 100%;
+        height: 600px;
+       
+        
+    }
+    .tituloCarousel{
+      
+        color: rgb(0, 255, 255);
+        text-align: center;
+        font-family: 'Amatic SC', cursive;
+        font-family: 'Itim', cursive;
+        font-size: 30px;
+        
+        
+    }
+
+    .tituloCarousel h3{
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    .carouselHouse{
+        width: 100%;
+        height: 290px;
+        border-radius: 5px;
+        object-fit: cover;
+        
+    }
+    
+    .carouselHouse1{
+        
+        margin: auto;
+        background: #274cc7ec;
+        width: 95%;
+        height: 330px;
+        border: solid rgb(206, 37, 212) 20px;
+        border-radius: 30px;
+        margin-top: 100px;
+        box-shadow: 0 0 6px rgba(0, 0, 0 , .8);
+        
+        
+    }
+
+    .oveja{
+        position: absolute;
+        top: 1055px;
+        left: -130px;
+        width: 400px;
+        height: 300px;
+        z-index: 1;
+    }
+}
+
+
+
+
+

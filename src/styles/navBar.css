@@ -1,0 +1,56 @@
+.navBarColor{
+    /* background: rgba(103, 203, 228, 0.993); */
+    background: rgb(255, 255, 255);
+    color: white;
+    font-size: 25px;
+    height: 60px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Itim', cursive;
+
+    
+}
+
+.logo-navBar{
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 120px;
+    margin-right: 20px;
+}
+
+.redes{
+    margin-right: 20px;
+    border-radius: 7.5px;
+    /* background: rgb(253, 248, 248); */
+}
+
+.redes1{
+    margin-right: 20px;
+    border-radius: 15px;
+    /* background: rgb(253, 248, 248); */
+}
+
+.redes:hover{
+    
+    transition: background-color .5s;
+    transform: rotate(-10deg);
+}
+
+.redes1:hover{
+    
+    transition: background-color .5s;
+    transform: rotate(10deg);
+}
+
+
+.colorLetras{
+    background: rgba(0, 255, 234, 0.589);
+    border-radius: 5px;
+    margin-right: 5px;
+    
+}
+
+.colorLetras:hover{
+    background: rgba(255, 0, 255, 0.534);
+    transform: rotate(6deg);
+    transition: transform .5s;
+}

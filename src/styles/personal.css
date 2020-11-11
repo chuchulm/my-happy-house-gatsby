@@ -1,0 +1,174 @@
+.container{
+    max-width: 1200px;
+    height: 800px;
+   
+}
+
+.testimony{
+    background: rgb(255, 3, 213);
+ 
+  
+   
+}
+
+.testimony-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Encabezado{
+   
+    color: rgb(240, 187, 12);
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Itim', cursive;  
+    font-size: 40px;
+    
+}
+
+
+.Encabezado-Nuestra{
+    color: rgb(0, 255, 255);
+    
+}
+
+.testimony__card{
+    width: 30%;
+    height: 500px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+  
+    
+}
+
+.testimony__img{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.testimony__copy{
+    position: absolute;
+    bottom: 20px;
+    left: 5%;
+    width: 90%;
+    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: var(--shadow) var(--color_shadow);
+    padding: 15px 8px;
+    display: flex;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Itim', cursive;  
+}
+
+.testimony__copy--modifier{
+    background: none;
+    box-shadow: none;
+}
+
+.testimony__logo{
+    font-size: 40px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.testimony__name{
+    font-size: 24px;
+    line-height:28px;
+}
+
+.testimony__position{
+    color: var(--gray);
+}
+
+.testimony__text{
+    padding: 40px 0;
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.rana{
+    width: 700px;
+    height: 450px;
+    position: absolute;
+    top: 2940px;
+    left: -100px;
+}
+
+.ranaGrande{
+    /* width: 700px;
+    height: 450px; */
+    position: absolute;
+    top: 2710px;
+    right: -60px;
+}
+
+.Jirafa{
+    /* width: 700px;
+    height: 450px; */
+    position: absolute;
+    top: 2520px;
+    left: 160px;
+    
+}
+
+.wave3{
+    height: 100px;
+   
+   
+   
+    
+}
+
+.wave4{
+     height: 100%;
+     width: 100%;
+     
+}
+
+.wave5{
+    stroke: none;
+     fill:  #e7e4e2;
+}
+
+
+/* responsive */
+
+@media(max-width: 400px){
+
+    .container{
+        max-width: 1200px;
+        height: 1050px;
+       
+    }
+
+    .testimony-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .testimony__card{
+        width: 70%;
+        height: 300px;
+        margin-bottom: 10px;
+        background: #fff;
+        border-radius: 10px;
+        position: relative;
+      
+        
+    }
+}
