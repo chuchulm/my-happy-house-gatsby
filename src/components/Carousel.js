@@ -21,17 +21,17 @@ import {
 const items = [
   {
     src: img1,
-    altText: 'Slide 1',
-    caption: 'Slide 1'
+    // altText: 'Slide 1',
+    // caption: 'Slide 1'
   },
   {
     src: img2,
-    altText: 'Slide 2',
-    caption: 'Slide 2'
+    // altText: 'Slide 2',
+    // caption: 'Slide 2'
   },
   {
     src: img3,
-    caption: 'Slide 3'
+    // caption: 'Slide 3'
   }
 ];
 
@@ -64,7 +64,7 @@ const Example = (props) => {
         key={item.src}
         
       >
-        <img src={item.src} alt={item.altText} width="90%" height="650px" className="carouselHouse1"/>
+        <img src={item.src} alt={item.altText} className="carouselHouse1"/>
         <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
       </CarouselItem>
     );
@@ -75,7 +75,11 @@ const Example = (props) => {
     <>
      <div className='total'>
 
-      <div><img src={oveja}  alt='imagen' className='oveja' width="460px" height="250px"/></div>
+     <div className="wave6" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" className="wave7">
+             <path d="M-24.60,26.94 C149.21,110.81 271.49,-49.99 500.22,40.75 L500.00,0.00 L0.00,0.00 Z" className="wave20"></path></svg>
+         </div>
+
+      <div><img src={oveja}  alt='imagen' className='oveja'/></div>
 
       <div >
        <h3 className="tituloCarousel">Ven a disfrutar<span className='VEN'> esta increible</span> Aventura</h3>

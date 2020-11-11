@@ -32,10 +32,7 @@ function Main(){
                         <img src={elefante}  alt='imagen' className='elefante' width="460px" height="250px"/>
                    
 
-            <div className="wave" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" className="wave1">
-                   <path d="M-15.01,43.71 C280.70,236.15 523.93,-117.14 549.32,207.53 L500.22,150.29 L-4.85,153.25 Z" className="wave2">
-                   </path></svg>
-            </div>
+            
         </section>
                 
 

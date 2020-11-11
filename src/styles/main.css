@@ -1,17 +1,16 @@
 
 .contenedor{
+  
     background: #9cc727ec;
     padding: 60px 0;
     width: 100%;
-    max-width: 100%;
-    margin: auto;
     display: flex;
-    height: 755px;
+    height: 785px;
 
 }
 
     .video-about-us{
-        width: 85%;
+        width: 95%;
         margin-right: 500px;
         margin-left: 200px;
         border-radius: 5px;
@@ -28,7 +27,7 @@
     font-family: 'Amatic SC', cursive;
     font-family: 'Itim', cursive;
     font-size: 40px;
-    margin-left: 240px;
+    margin-left: 340px;
     
    
     }
@@ -37,10 +36,10 @@
     .contenido-textos p{
         color: rgb(255, 255, 255);
     padding: 0px 0px 30px 0px;
-    font-weight: 400;
+    font-weight: 700;
     text-align: justify;
     margin-right: 300px;
-    margin-left: 120px;
+    margin-left: 180px;
     font-family: 'Amatic SC', cursive;
     font-family: 'Itim', cursive;  
     
@@ -48,12 +47,12 @@
     }
 
     .happy{
-        color: rgb(255, 196, 1);
+        color: rgb(255, 196, 0);
     }
 
     .elefante{
         position: absolute;
-        top: 1250px;
+        top: 1450px;
         right: -50px;
         width: 550px;
         height: 300px;

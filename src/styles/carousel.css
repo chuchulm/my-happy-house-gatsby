@@ -1,7 +1,7 @@
 .total{
     background: #274cc7fd;
     width: 100%;
-    height: 1300px;
+    height: 1500px;
    
     
 }
@@ -36,6 +36,7 @@
 
 .indicador{
     width: 100%;
+    height: 970px;
 }
 
 .carouselHouse1{
@@ -43,7 +44,7 @@
     margin-left: 90px;
     background: #274cc7ec;
     width: 90%;
-    height: 790px;
+    height: 890px;
     border: solid rgb(206, 37, 212) 20px;
     border-radius: 30px;
     margin-top: 70px;
@@ -55,12 +56,17 @@
 
 .oveja{
     position: absolute;
-    top: 1465px;
+    top: 1725px;
     left: -200px;
     width: 1000px;
     height: 700px;
     
 }
+
+.wave20{
+    stroke: none;
+     fill: #a1cc2c;
+    }
 
 
 

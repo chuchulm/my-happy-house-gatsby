@@ -22,13 +22,13 @@ const Example = (props) => {
 
   return (
     <div>
-      <Navbar color="ligth" light expand="md">
+      <Navbar className="colorLetras "  expand="md">
      <img src={Logo} width="50px" height="50px" />
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink href="/components/">Inicio</NavLink>
+            <NavItem >
+              <NavLink  href="/components/">Inicio</NavLink>
             </NavItem>
             <NavItem >
               <NavLink href="https://github.com/reactstrap/reactstrap" >Nosotros</NavLink>
