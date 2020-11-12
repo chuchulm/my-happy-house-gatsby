@@ -6,7 +6,8 @@
     margin: auto;
     overflow: hidden;
     display: flex;
-     flex-direction: column;
+    flex-direction: column;
+     
 }
 
 
@@ -26,7 +27,7 @@
 .portafolio{
 
     background: #e7e4e2;  
-    
+    position: relative;
     
 
     }
@@ -86,6 +87,14 @@
     }    
 
 
+    .rana{
+        width: 700px;
+        height: 450px;
+        position: absolute;
+        top: -40px;
+        left:-90px;
+    }
+
     .wave6{
         height: 150px;
        
@@ -123,6 +132,7 @@
             width: 100%;
             max-width: 800px;
             margin: auto;
+            
             
             
        
@@ -172,6 +182,14 @@
     .wave8{
         stroke: none;
          fill: #274cc7fd;
+    }
+
+    .rana{
+        width: 300px;
+        height: 250px;
+        position: absolute;
+        top: -20px;
+        left:-90px;
     }
       
         

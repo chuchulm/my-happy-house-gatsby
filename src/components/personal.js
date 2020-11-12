@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/personal.css';
 import Logo from '../images/first-person.jpg'
-import rana from '../images/rana.png'
 import ranaGrande from '../images/rana-vector.png'
 import Jirafa from '../images/Jirafa-vector.png'
 
@@ -53,7 +52,7 @@ function Personal(){
                     </div>
                 </div>
 
-                <img src={rana}  alt='imagen' className='rana' width="490px" height="300px"/>
+                
                 {/* <img src={ranaGrande}  alt='imagen' className='ranaGrande' width="300px" height="400px"/> */}
                 {/* <img src={Jirafa}  alt='imagen' className='Jirafa' width="500px" height="500px"/> */}
             </div>

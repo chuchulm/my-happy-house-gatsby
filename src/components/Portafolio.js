@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/portafolio.css';
 import logo from '../images/logo-happy-house-vector3.png';
 import dorao1 from '../images/myHouse3.jpg';
+import rana from '../images/rana.png'
 
 
 
@@ -13,9 +14,11 @@ function Portafolio(){
              <path d="M-24.60,26.94 C149.21,110.81 271.49,-49.99 500.22,40.75 L500.00,0.00 L0.00,0.00 Z" className="wave8"></path></svg>
          </div>
 
+         
+
         <div className="contenedor1">
           <img src={logo} alt="" className="logo2"></img>
-            
+          <img src={rana}  alt='imagen' className='rana' width="490px" height="300px"/>
                <div class="galeria-port">
                <div className="imagen-port">
                      <img src={dorao1} alt=""></img>
@@ -85,6 +88,8 @@ function Portafolio(){
 
      
            </div>
+
+           
       </div>
 
 

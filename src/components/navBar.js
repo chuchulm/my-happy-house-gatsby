@@ -1,61 +1,39 @@
-import React, { useState } from 'react';
+import React from 'react'
+import '../styles/navBar.css'
+import { Link } from "gatsby"
 import Logo from '../images/logo-happy-house-vector3.png'
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText
-} from 'reactstrap';
+// import facebook from '../images/facebook.png'
+// import instagram from '../images/instagram.png'
+// import whatsapp from '../images/whatsapp.png'
 
-const Example = (props) => {
-  const [isOpen, setIsOpen] = useState(false);
 
-  const toggle = () => setIsOpen(!isOpen);
+function NavBar(){
+    return(
+        <div className="container2">
+              
+        
+       
 
-  return (
-    <div>
-      <Navbar className="colorLetras "  expand="md">
-     <img src={Logo} width="50px" height="50px" />
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
-            <NavItem >
-              <NavLink  href="/components/">Inicio</NavLink>
-            </NavItem>
-            <NavItem >
-              <NavLink href="https://github.com/reactstrap/reactstrap" >Nosotros</NavLink>
-            </NavItem>
-            {/* <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Options
-              </DropdownToggle>
-              <DropdownMenu right>
-                <DropdownItem>
-                  Option 1
-                </DropdownItem>
-                <DropdownItem>
-                  Option 2
-                </DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>
-                  Reset
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown> */}
-          </Nav>
-          <NavbarText>Simple Text</NavbarText>
-        </Collapse>
-      </Navbar>
-    </div>
-  );
+        <div >
+            <nav className=" navcabecera ">
+            <div>
+           <img src={Logo} alt="" className="logo"></img>
+        </div>
+            
+              <div><Link to="/" className='nav-link active navColor' >Inicio</Link></div>
+              <div><Link to="/" className='nav-link navColor'>Blog</Link></div>
+              <div><Link to="/" className='nav-link navColor'>Contacto</Link></div>
+            </nav>
+        </div>
+
+      
+
+        
+
+
+  
+        </div>
+
+    )
 }
-
-export default Example;
+export default NavBar;

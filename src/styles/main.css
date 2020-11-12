@@ -6,6 +6,7 @@
     width: 100%;
     display: flex;
     height: 785px;
+    position: relative;
 
 }
 
@@ -27,7 +28,7 @@
     font-family: 'Amatic SC', cursive;
     font-family: 'Itim', cursive;
     font-size: 40px;
-    margin-left: 340px;
+    margin-left: 290px;
     
    
     }
@@ -52,7 +53,7 @@
 
     .elefante{
         position: absolute;
-        top: 1450px;
+        top: 440px;
         right: -50px;
         width: 550px;
         height: 300px;
@@ -62,7 +63,7 @@
     height: 110px;
     width: 100%;
     position: absolute;
-    top: 1550px;
+    top: 1540px;
     }
 
     .wave1{
@@ -81,8 +82,8 @@
     @media(max-width: 400px){
         .contenedor{
             background: #9cc727ec;
-            height: 750px;
-          
+            height: 560px;
+            position: relative;
         
         }
 
@@ -91,14 +92,14 @@
           margin: 23px;
             border-radius: 5px;
             position: absolute;
-            top: 310px;
+            top: 5px;
             
            
             
         }
 
         .contenido-texto h3{
-            margin-top: 150px;
+            margin-top: 160px;
             margin-left: 70px;
             color: rgb(0, 255, 255);
             font-family: 'Amatic SC', cursive;
@@ -132,23 +133,6 @@
         }
 
 
-        .wave{
-            height: 100px;
-            width: 100%;
-            position: absolute;
-            top: 990px;
-            }
-        
-            .wave1{
-             height: 100%;
-             width: 100%;
-             
-            }
-        
-            .wave2{
-            stroke: none;
-             fill: #264cc7;
-            }
         
         
             
